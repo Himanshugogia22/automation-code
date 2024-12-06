@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo.git'
+                git branch: 'main', url: 'https://github.com/Himanshugogia22/automation-code.git'
             }
         }
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                bat 'mvn install'
             }
         }
         stage('Run Tests') {
             steps {
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
         stage('Publish Results') {
