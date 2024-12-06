@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="ExtentReport.ExtentReport.testmethodclass1">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- ExtentReport.ExtentReport.testmethodclass1 -->
+      <class name="ExtentReport.ExtentReport.ExtentReportDemo">
+        <methods>
+          <include name="initialdemo"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- ExtentReport.ExtentReport.ExtentReportDemo -->
+      <class name="ExtentReport.ExtentReport.testmethodclass2">
+        <methods>
+          <include name="setupApplication"/>
+          <include name="xyz"/>
+        </methods>
+      </class> <!-- ExtentReport.ExtentReport.testmethodclass2 -->
+      <class name="ExtentReport.ExtentReport.testmethodclass">
+        <methods>
+          <include name="xyz"/>
+          <include name="setupApplication"/>
+        </methods>
+      </class> <!-- ExtentReport.ExtentReport.testmethodclass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

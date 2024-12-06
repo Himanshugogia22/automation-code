@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+        <!-- Add ExtentTestNGITestListener listener -->
+        <listener class-name="ExtentReport.ExtentReport.Listeners"/>
+    </listeners>
+  <test name="Test">
+    <classes>
+      <class name="ExtentReport.ExtentReport.testmethodclass"/>
+      <class name="ExtentReport.ExtentReport.testmethodclass1"/>
+      <class name="ExtentReport.ExtentReport.testmethodclass2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
