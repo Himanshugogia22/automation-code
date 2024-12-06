@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'mvn install'
+                bat '"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn" install'
             }
         }
         stage('Run Tests') {
             steps {
-                bat 'mvn test'
+                bat '"C:\\Program Files\\apache-maven-3.9.9\\bin\\mvn" test'
             }
         }
         stage('Publish Results') {
